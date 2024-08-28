@@ -1,0 +1,85 @@
+body {
+    font-family: "Anek Gurmukhi", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+}
+.photo {
+    text-align: center;
+}
+.photo img {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+p {
+    line-height: 1.4;
+    color: #666;
+}
+h3 ul {
+    list-style-type: none;
+    padding: 0;
+}
+h3 ul li {
+    background: #e4e4e4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact_form input, .contact_form textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 97%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact_form button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px 20px;
+    border: #ccc;
+    background-color: #254d8a;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.social_links a {
+    text-decoration: none;
+    color: #254d8a;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav ul li {
+    margin: 0 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
